@@ -1,0 +1,28 @@
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+  font-family: sans-serif;
+  background-color: rgb(153, 153, 255);
+  border: 1px solid blue;
+  border-radius: 15px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 5px 5px 5px black;
+}
+p:hover {
+  background-color: #ff66ff;
+  border: 3px solid magenta;
+}
+
+p {
+  background: rgba(153,153,255,0.65);
+    background: -moz-linear-gradient(-45deg, rgba(153,153,255,0.65) 9%, rgba(153,153,255,0.55) 25%, rgba(153,153,255,0.55) 39%, rgba(0,0,0,0.55) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(153,153,255,0.65) 9%, rgba(153,153,255,0.55) 25%, rgba(153,153,255,0.55) 39%, rgba(0,0,0,0.55) 100%);
+    background: -o-linear-gradient(-45deg, rgba(153,153,255,0.65) 9%, rgba(153,153,255,0.55) 25%, rgba(153,153,255,0.55) 39%, rgba(0,0,0,0.55) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(153,153,255,0.65) 9%, rgba(153,153,255,0.55) 25%, rgba(153,153,255,0.55) 39%, rgba(0,0,0,0.55) 100%);
+}
